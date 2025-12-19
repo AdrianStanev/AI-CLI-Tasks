@@ -53,3 +53,38 @@
 - ✅ Групиране по теми
 - ✅ Лесна навигация
 - ✅ Българки език
+
+---
+
+## 🔄 Google Drive Интеграция
+
+Синхронизация с Google Drive с **ограничен достъп** само до конкретна папка.
+
+### Функции:
+- 📤 **Upload**: Качване на локални файлове в Drive
+- 📥 **Download**: Изтегляне на файлове от Drive
+- 📂 **List**: Преглед на файлове в Drive папката
+- 🔒 **Сигурност**: Достъп САМО до определена папка (не целия Drive)
+
+### Бърз старт:
+
+```bash
+# Листване на файлове в Drive
+cd scripts/gdrive
+python3 sync.py list
+
+# Качване на локални файлове
+python3 sync.py upload
+
+# Изтегляне от Drive
+python3 sync.py download
+```
+
+### Настройка:
+Виж детайлни инструкции в [`scripts/gdrive/SETUP.md`](scripts/gdrive/SETUP.md)
+
+**Важно:**
+- ✅ 100% безплатно (в Google free tier)
+- ✅ Кодът се изпълнява локално
+- ✅ Service Account с минимални права
+- 🔒 Credentials НЕ се commit-ват в Git

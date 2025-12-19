@@ -1,0 +1,24 @@
+# Google Drive credentials - ВАЖНО: НЕ commit-вай!
+scripts/gdrive/credentials.json
+scripts/gdrive/token.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
